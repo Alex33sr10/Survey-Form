@@ -1,0 +1,63 @@
+#center {
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px black;
+}
+#title {
+  text-decoration: underline;
+}
+#form {
+  color:white;
+  text-shadow: 2px 2px black;
+}
+body {
+  background-image: url("https://www.datasciencedegreeprograms.net/wp-content/uploads/2020/12/DOES-DATA-SCIENCE-INVOLVE-CODING-1024x427.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 10px;
+  padding:3px;
+  align-items:center; 
+  width: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.flex-item {
+  text-align: center; 
+  width: 800px;
+  height:auto ;
+  font-size: 25px; 
+  align-items: center;
+  color:#32CD32;
+}
+.boxes{
+  justify-content: center;
+  font-size: 18px;
+  width: 40%;
+  border: inset;
+ }
+
+#white {
+  color: white;
+}
+#comments {
+  height: 30px auto;
+  width: auto;
+}
+#submit{
+  margin-bottom: 20px;
+  margin-top: 5px
+}
+
+#dropdown{
+   justify-content: center;
+  font-size: 18px;
+  width: 41%;
+  border: inset;
+}

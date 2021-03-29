@@ -1,0 +1,101 @@
+<!DOCTYPE.html>
+<html>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<link rel="stylesheet" href="SurveyForm.css">
+  <main id="center" class="flex-container">
+    <h1 id="title"> Reason for learning software development/ coding survey form. </h1>
+    <p id="description"> Thank you for taking the time to fill this out. </p>
+  </main>
+  <body id="background">
+    <div id="form" class="flex-container">
+    <form id="survey-form">
+      <ul class="flex-container">
+        <div class="flex-item">
+          <br>
+  <li>
+    <label for="Name" id="name-label">Name:<br></label> 
+      <input type="text" class="boxes" id="name" name="name" placeholder="First and last name" required>
+            </li> 
+  <li>
+    <label for="email" id="email-label">Email:<br></label> 
+      <input type="email" class="boxes" id="email"name="email" placeholder="Enter your email" required>
+      </li>
+  <li>
+    <label for="number" id="number-label">Age:<br></label>
+      <input type="number" class="boxes" id="number" name="number"  min="1" max="120"
+      placeholder="Enter age here" required>
+      </li>
+  <li class="flex-item">
+    <label for="dropdown">
+      Top job you are looking for: 
+    </label>
+    <br>
+     <li class="flex-item">
+    <select name="dropdown" id="dropdown" 
+ <option value="Freelancing"> Freelancing</option>
+  <option value="Fullstack"> Full-stack Web Developer
+      </option>
+<option value="Frontend"> Front-End Web Developer
+      </option>
+<option value="Backend"> Back-End Web Developer
+      </option>
+      <option value="DataScientist">
+        Data Scientist
+      </option>
+<option value="Other"> 
+    Other
+      </option>
+      </li> </select>
+        <li class="flex-item"> 
+          <p> How are you learning:</p>
+          <div id="white">
+            <div id="boxes">
+          <input type="radio" id="self" name="how-learn" value="self">
+          <label for="self"> Self Learning </label>
+          <input type="radio" id="college" name="how-learn" value="college">
+          <label for="scollege"> College Courses </label>
+          <input type="radio" id="camp" name="how-learn" value="camp">
+          <label for="camp"> Coding Camp </label>
+        </li>
+        <li class="flex-item">
+          <fieldset>
+        <p>Language learned/ Planning to learn</p> 
+         <div id="white">
+        <input type="checkbox" id="js" name="codinglang" value="js">           
+        <label for="js"> JavaScript
+        </label>
+<input type="checkbox" id="Python" name="codinglang" value="Python">
+ <label for="Python"> Python
+        </label><br>
+<input type="checkbox" id="C++" name="codinglang" value="C++"><label for="C++">  C++
+        </label>
+        <input type="checkbox" id="ruby" name="codinglang" value="ruby"><label for="ruby">  Ruby
+        </label><br>
+        <input type="checkbox" id="Java" name="codinglang" value="Java"><label for="Java">  Java
+        </label>
+        <input type="checkbox" id="Rlang" name="codinglang" value="Rlang"><label for="Rlang"> R Lanugage
+        </label><br>
+        <input type="checkbox" id="scala" name="codinglang" value="scala"><label for="scala"> Scala
+        </label>
+        <input type="checkbox" id="C#" name="codinglang" value="C#"><label for="C#">  C#
+        </label><br>
+        <input type="checkbox" id="php" name="codinglang" value="php"><label for="php">  PHP
+        </label>
+        <input type="checkbox" id="kotlin" name="codinglang" value="kotlin"><label for="kotlin"> Kotlin
+        </label><br>
+        <input type="checkbox" id="go" name="codinglang" value="go"><label for="go">  Go
+        </label>
+        <input type="checkbox" id="other" name="codinglang" value="other"><label for="other"> Other
+           </label> </li> <br> </fieldset>            
+      <li class="flex-item">
+        <label for="comments">Additional Comments: </label> <br>
+        <textarea> </textarea>
+          </li>
+  <li class="flex-item">
+    <input id="submit" type="submit" value="Submit">
+  </li>
+</ul>
+     </form>
+     </body>
+     </div>
+     </html>
